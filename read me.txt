@@ -1,0 +1,8 @@
+expressions.h is the main file to include.
+you may include memory_leak_finder.h which contains a global that dumps detected memory leaks upon destruction.
+definitions.h is part of the implementation and already included by expressins.h, but you may want to reference it.
+listmaking.h and expression_tree_utils.h are utilities for manipulating expressions that are optional to be included. They are also decent example code.
+how to use expressions.docx is a tutorial.
+everything else (in the implementation folder) is part of the implementation
+
+strict aliasing must be off!
